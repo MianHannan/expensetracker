@@ -9,17 +9,18 @@ import { Balance } from './components/Balance';
 import { Summary } from './components/Summary';
 import { History } from './components/History';
 import { AddTransaction } from './components/AddTransaction';
+import { GlobalStateProvider } from './context/GlobalState';
 
 export const App = () => {
   return (
-    <div>
+    <GlobalStateProvider id="proper">
       <Header />
-      <div class="container">
+      <div className="container">
         <Balance />
         <Summary />
         <History />
         <AddTransaction />
       </div>
-    </div>
+    </GlobalStateProvider>
   )
 }
