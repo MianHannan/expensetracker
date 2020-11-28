@@ -21,6 +21,11 @@ export const App = () => {
         <History />
         <AddTransaction />
       </div>
+      <div style={{ marginBottom: '10px' }}>
+        <a href="https://mianhannan.github.io/covid19tracker">Covid19 Tracker </a>
+          Developed with ❤ by
+          <a href="https://mianhannan.github.io"> Mian Hannan</a>
+      </div>
     </GlobalStateProvider>
   )
 }
