@@ -22,7 +22,7 @@ export const App = () => {
         <AddTransaction />
       </div>
       <div style={{ marginBottom: '10px' }}>
-        <a href="https://mianhannan.github.io/covid19tracker">Covid19 Tracker </a>
+        <a href="https://mianhannan.github.io/expensetracker">Expense Tracker </a>
           Developed with ❤ by
           <a href="https://mianhannan.github.io"> Mian Hannan</a>
       </div>
